@@ -136,6 +136,7 @@ function MovieDetails({
             textSize={18}
             updateRate={handelRating}
             rateExist={userRating}
+            ownerClass={"stars"}
           />
           {userRating != -1 && (
             <button className="btn-add" onClick={addMovie}>
